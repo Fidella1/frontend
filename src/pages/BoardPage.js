@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import BoardForm from '../components/BoardForm';
 import BoardList from '../components/BoardList';
-import { getBoards } from '../services/boardService';
+import { getAllBoards } from '../services/boardService';
 
 const BoardPage = () => {
   const [boards, setBoards] = useState([]);

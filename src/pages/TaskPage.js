@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
-import { getBoardById } from '../services/boardService';
-import { getTasksByBoardId } from '../services/taskService';
+//import { getBoardById } from '../services/boardService';
+import { getAllTasks } from '../services/taskService';
 
 const TaskPage = () => {
   const { boardId } = useParams();
